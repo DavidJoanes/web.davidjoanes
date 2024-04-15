@@ -45483,7 +45483,7 @@ m=m.c.a
 l=$.aO
 if(l==null)l=$.aO=new A.bJ()
 l.br(m.b8$)
-m=J.e(J.aA(m.bF$,e),d)?20:0
+m=J.e(J.aA(m.bF$,e),d)?5:0
 a3*=0.45
 l=b0.k3
 k=A.aR(l.i(0,d)[1],f,f,f,f)
@@ -45492,21 +45492,21 @@ k=n.c.c.a
 j=$.aO
 if(j==null)j=$.aO=new A.bJ()
 j.br(k.b8$)
-k=J.e(J.aA(k.bF$,e),a)?20:0
+k=J.e(J.aA(k.bF$,e),a)?5:0
 j=A.aR(l.i(0,a)[1],f,f,f,f)
 k=A.dN(A.au(A.dT(new A.lw("assets/icons/acecore_logo_2.jpg",20,new A.ajo(b8),f),new A.ajp(b8),A.aR(l.i(0,a)[0]+"\n"+l.i(0,a)[2],f,f,f,f),j,new A.iw(b5,b,new A.ajq(g),f)),f,a3),k,f)
 j=n.c.c.a
 i=$.aO
 if(i==null)i=$.aO=new A.bJ()
 i.br(j.b8$)
-j=J.e(J.aA(j.bF$,e),a0)?20:0
+j=J.e(J.aA(j.bF$,e),a0)?5:0
 i=A.aR(l.i(0,a0)[1],f,f,f,f)
 j=A.dN(A.au(A.dT(new A.lw("assets/icons/cite_logo.png",20,new A.ajr(b8),f),new A.ajs(b8),A.aR(l.i(0,a0)[0]+"\n"+l.i(0,a0)[2],f,f,f,f),i,new A.iw(b5,b,new A.ajt(g),f)),f,a3),j,f)
 i=n.c.c.a
 h=$.aO
 if(h==null)h=$.aO=new A.bJ()
 h.br(i.b8$)
-i=J.e(J.aA(i.bF$,e),a1)?20:0
+i=J.e(J.aA(i.bF$,e),a1)?5:0
 h=A.aR(l.i(0,a1)[1],f,f,f,f)
 i=A.cm(A.b([m,k,j,A.dN(A.au(A.dT(new A.lw(c,20,new A.aju(b8),f),new A.ajv(b8),A.aR(l.i(0,a1)[0]+"\n"+l.i(0,a1)[2],f,f,f,f),h,new A.iw(b5,b,new A.aji(g),f)),f,a3),i,f)],b7),B.y,B.D,B.w)
 n=n.c.c.a
