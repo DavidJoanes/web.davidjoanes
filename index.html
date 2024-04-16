@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,7 +28,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>davidjoanes</title>
   <link rel="manifest" href="manifest.json">
@@ -42,42 +43,43 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6E2MS6SDL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-Y6E2MS6SDL');
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7757261513245621"
-  crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/64da636094cf5d49dc6a591c/1h7qh8d59';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/64da636094cf5d49dc6a591c/1h7qh8d59';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
   })();
 </script>
 <!--End of Tawk.to Script-->
+
 <body>
   <div id="loading_indicator" class="loading">
     <div class="loader"></div>
   </div>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: 1,
           // serviceWorkerVersion: serviceWorkerVersion,
         }
-      }).then(function(engineInitializer) {
+      }).then(function (engineInitializer) {
         return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
+      }).then(function (appRunner) {
         return appRunner.runApp();
       });
     });
@@ -95,42 +97,44 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  
+
   .loader {
-    border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border: 15px solid ;
-  border-top: 16px solid green;
-  border-right: 16px solid white;
-  border-bottom: 16px solid green;
-  border-left: 16px solid white;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1s linear infinite;
+    /* border: 16px solid #f3f3f3;
+    border: 15px solid; */
+    border-radius: 50%;
+    border-top: 16px dotted green;
+    border-right: 16px dotted white;
+    border-bottom: 16px dotted green;
+    border-left: 16px dotted white;
+    width: 100px;
+    height: 110px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
   }
 
   @-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
   }
 
   @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 </style>
 <script>
-  window.onload = function() {
-    setTimeout(function() {
+  window.onload = function () {
+    setTimeout(function () {
       var loader = document.getElementById("loading_indicator")
       if (loader) {
         loader.remove();
@@ -138,4 +142,5 @@
     }, 10000);
   }
 </script>
+
 </html>
